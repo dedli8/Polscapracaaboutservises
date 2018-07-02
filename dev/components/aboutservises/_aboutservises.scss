@@ -1,0 +1,104 @@
+
+.about-servises {
+  background-image: url("img/mainbg.png");
+  padding: 14px 0 26px 0;
+  @include media($width-xs){
+    padding: 50px 0 50px 0;
+    }
+  @include media($width-mid){
+    padding: 50px 0 50px 0;
+  }
+  @include media($width-max){
+    padding: 50px 0 50px 0;
+  }
+
+}
+  .about-servises-title {
+    color: $mainred;
+    font-family: $echobold, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 29px;
+    @include media($width-xs){
+      margin-bottom: 40px;
+      font-size: 30px;
+      line-height: 24px;
+    }
+    @include media($width-mid){
+      margin-bottom: 40px;
+      font-size: 48px;
+      line-height: 24px;
+    }
+    @include media($width-max){
+      margin-bottom: 40px;
+      line-height: 24px;
+    }
+  }
+  .about-servises-text-box{
+    margin-bottom: 23px;
+    position: relative;
+    @include media($width-xs){
+      margin-bottom: 30px;
+    }
+    @include media($width-mid){
+      margin-bottom: 30px;
+    }
+    @include media($width-max){
+      margin-bottom: 30px;
+    }
+  }
+  .about-servises-text {
+    text-align: center;
+    display: inline-block;
+    font-family: $museo100, sans-serif;
+    font-size: 15.94px;
+    line-height: 19px;
+    color: #1b1b1b;
+    @include media($width-xs){
+      font-size: 23.1px;
+      line-height: 16px;
+    }
+    @include media($width-mid){
+      font-size: 40px;
+      line-height: 16px;
+    }
+    @include media($width-max){
+      padding-left: 8px;
+      text-align: left;
+      font-size: 20px;
+      line-height: 16px;
+    }
+  }
+  .about-servises-disk{
+    display: none;
+    position: absolute;
+    top: 7px;
+    background-color: $mainred;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin-right: 3px;
+    @include media($width-max){
+display: inline-block;
+    }
+  }
+  .red-button{
+    font-family: $echobold;
+    width: 248px;
+    height: 43px;
+    margin-top: 28px;
+    font-size: 20.3px;
+    @include media($width-xs){
+      width: 292px;
+      height: 53px;
+    }
+    @include media($width-mid){
+      width: 611px;
+      height: 106px;
+    }
+    @include media($width-max){
+      width: 294px;
+      height: 55px;
+    }
+  }
