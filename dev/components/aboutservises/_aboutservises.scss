@@ -6,10 +6,10 @@
     padding: 22px 0 23px 0;
     }
   @include media($width-mid){
-    padding: 50px 0 50px 0;
+    padding: 28px 0 43px 0;
   }
   @include media($width-max){
-    padding: 50px 0 50px 0;
+    padding: 50px 0 61px 0;
   }
 
 }
@@ -26,13 +26,17 @@
       line-height: 35px;
     }
     @include media($width-mid){
-      margin-bottom: 40px;
+      margin: 0 auto;
+      margin-bottom: 25px;
       font-size: 48px;
-      line-height: 24px;
+      line-height: 58px;
+      width: 75%;
+
     }
     @include media($width-max){
-      margin-bottom: 40px;
-      line-height: 24px;
+      margin-bottom: 48px;
+      line-height: 48px;
+      width: 100%;
     }
   }
   .about-servises-text-box{
@@ -42,10 +46,10 @@
       margin-bottom: 26px;
     }
     @include media($width-mid){
-      margin-bottom: 30px;
+      margin-bottom: 48px;
     }
     @include media($width-max){
-      margin-bottom: 30px;
+      margin-bottom: 32px;
     }
   }
   .about-servises-text {
@@ -60,14 +64,14 @@
       line-height: 28px;
     }
     @include media($width-mid){
-      font-size: 40px;
-      line-height: 16px;
+      font-size: 39.3px;
+      line-height: 48px;
     }
     @include media($width-max){
       padding-left: 8px;
-      text-align: left;
+      text-align: justify;
       font-size: 20px;
-      line-height: 16px;
+      line-height: 21px;
     }
   }
   .about-servises-disk{
@@ -97,8 +101,12 @@ display: inline-block;
     @include media($width-mid){
       width: 611px;
       height: 106px;
+      font-size: 48px;
+      margin-top: -9px;
     }
     @include media($width-max){
+      font-size: 24.12px;
+      margin-top: 62px;
       width: 294px;
       height: 55px;
     }
