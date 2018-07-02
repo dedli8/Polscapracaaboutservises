@@ -3,7 +3,7 @@
   background-image: url("img/mainbg.png");
   padding: 14px 0 26px 0;
   @include media($width-xs){
-    padding: 50px 0 50px 0;
+    padding: 22px 0 23px 0;
     }
   @include media($width-mid){
     padding: 50px 0 50px 0;
@@ -21,9 +21,9 @@
     font-size: 24px;
     line-height: 29px;
     @include media($width-xs){
-      margin-bottom: 40px;
+      margin-bottom: 16px;
       font-size: 30px;
-      line-height: 24px;
+      line-height: 35px;
     }
     @include media($width-mid){
       margin-bottom: 40px;
@@ -39,7 +39,7 @@
     margin-bottom: 23px;
     position: relative;
     @include media($width-xs){
-      margin-bottom: 30px;
+      margin-bottom: 26px;
     }
     @include media($width-mid){
       margin-bottom: 30px;
@@ -56,8 +56,8 @@
     line-height: 19px;
     color: #1b1b1b;
     @include media($width-xs){
-      font-size: 23.1px;
-      line-height: 16px;
+      font-size: 22.9px;
+      line-height: 28px;
     }
     @include media($width-mid){
       font-size: 40px;
@@ -92,6 +92,7 @@ display: inline-block;
     @include media($width-xs){
       width: 292px;
       height: 53px;
+      margin-top: 0;
     }
     @include media($width-mid){
       width: 611px;
